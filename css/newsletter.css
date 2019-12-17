@@ -1,0 +1,21 @@
+.section-newsletter {
+    display:grid;
+    grid-gap:20px;
+    border:1px solid #a9bed8;
+    padding: 2em;
+}
+.section-newsletter p {
+    font-weight: bold;
+    text-align: center;
+}
+.newsletter-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.newsletter-input .email {
+    flex-basis: 80%;
+    padding: 0.6em 1.3em;
+    border: 1px solid #a9bed8;
+    text-align: left;
+}

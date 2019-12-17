@@ -1,0 +1,65 @@
+@media(max-width: 1000px) {
+    .header {
+        margin: 0 1em;
+    }
+    .main {
+        margin:0 3em;
+    }
+}  
+@media(max-width: 726px) {
+    .main-nav li, .footer-nav li {
+        flex-basis: 20%;
+    }
+    .footer-nav li {
+        flex-basis: 30%;
+    }
+    .premium-card {
+        grid-template-columns: 1fr;
+    }
+    .info-container-bpost {
+        display: unset;
+    }
+    .info-cards-bpost, .info-autor-info {
+        display: grid;
+        grid-gap: 20px;
+        margin: 2em 0;
+    }
+    .info-cards-bpost h3, .info-aboutme-bpost h3 {
+        text-align: left;
+    }
+    .cards-bpost {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    .card-bpost {
+        background: #9ba8db;
+    }
+    .aboutme-bpost {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 2fr;
+    }
+}
+@media(max-width: 600px) {
+    .header {
+        margin: 0;
+    }
+    .premium-image {
+        min-height: 300px;
+    }
+    .card {
+        padding: 1em;padding-bottom: 1.5em;
+    }
+    .premium-image-bpost {
+        padding: unset;
+    }
+    .premium-image-bpost p {
+        padding-left: 1em;
+    }
+    .cards-bpost {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}

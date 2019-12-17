@@ -1,0 +1,62 @@
+.main {
+    display: grid;
+    grid-gap: 20px;
+    margin: 0 10em;
+}.premium-card {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+  }
+.premium-image {
+    min-height: 400px;
+    background: #2e3440 url(../img/eggert-14.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+}
+.premium-image p {
+    margin-top: 410px;
+    color: #eceff4;
+}
+.premium-descr {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+.premium-descr .btn{
+    align-self:flex-end;
+}
+.section-cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card {
+    background: #9ba8db;
+    padding: 1.5em;
+}
+.section-pager {
+    padding: 2em 1em 1em;
+    color:#000;
+}
+.section-pager ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}  
+.section-pager li {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:1px solid #a9bed8;
+    padding:0.3em;
+    margin:0.3em;
+}
+.section-pager li:hover {
+    background-color:#9ba8db;
+}
+.section-pager a {
+    font-size: 0.9em;
+    text-decoration: none;
+}

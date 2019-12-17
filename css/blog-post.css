@@ -1,0 +1,64 @@
+.main {
+    display: grid;
+    grid-gap: 20px;
+    margin: 0 10em;
+}
+.premium-card-bpost {
+    display: grid;
+    grid-gap: 20px;
+}
+.premium-image-bpost {
+    min-height: 500px;
+    margin: 0;
+    background: #2e3440 url(../img/eggert-14-big.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+}
+.premium-image-bpost p {
+    margin-top: 450px;
+    color: #eceff4;
+}
+.info-container-bpost {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 3fr 1fr;
+}
+.info-descr-bpost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info-descr-bpost .image {
+    padding-top: 1em;
+}
+.info-descr-bpost .caption {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: left;
+}
+.info-cards-bpost {
+    display: grid;
+}
+.card-bpost {
+    padding: 1em;
+}
+.card-bpost p {
+    padding: 0;
+}
+.card-bpost a {
+    color: #2e3440;
+    text-decoration: none;
+}
+.card-title-bpost {
+    border-bottom :1px solid grey;
+}
+.info-aboutme-bpost {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+}
+.aboutme-avatar {
+    border-radius: 50%;
+}
